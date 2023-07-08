@@ -173,7 +173,7 @@
   .resp{
     display: block;
   }
-  #res.resp.hide{
+  .resphide{
     display: none;
   }
   .resp ul li{
