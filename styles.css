@@ -32,12 +32,13 @@
   }
   
   .logo img {
-    height: 80px;
+    height: 50px;
   }
   
   .nav-links li {
     display: inline-block;
-    margin-left: 20px;
+    margin: 3 rem;
+    padding: 2rem;
   }
   
   .nav-links li a {
@@ -165,4 +166,42 @@
     text-align: center;
     color: #fff;
   }
+  .ham{
+    display: none;
+  }
   
+  .resp{
+    display: block;
+  }
+  #res.resp.hide{
+    display: none;
+  }
+  .resp ul li{
+    background: white;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex; 
+    justify-content: center;
+    border: black;
+    border-width: 5px 5px;
+    border-radius: 15px;
+    
+  }
+  .resp ul li a{
+
+    color: #ff9900;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+@media screen and (max-width:775px) {
+  .ham{
+    display: flex;
+  }
+  .nav-links{
+    display: none;
+  }
+  
+}
