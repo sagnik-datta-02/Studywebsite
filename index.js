@@ -1,3 +1,9 @@
 function myFunction(){
-    document.getElementById("res").classList.toggle("hide")
+    let p=document.getElementById("res");
+    if(p.className==="resp")
+    p.className+="hide";
+    else
+    p.className = "resp";
+
+    
 }
